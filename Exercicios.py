@@ -43,7 +43,12 @@ print("Resultado:", num1/num2);
 #print(frutas);
 
 #Desafio 9: Para este desafio, comece com a lista 'frutas' do desafio anterior. Primeiro remover a "manga" da lista usando o método remove(). Depois disso, remova o último item da lista usando o comando del(). Por fim, imprima a lista modificada na tela.
-frutas = ["Maçã", "Morango", "Manga", "Uva", "Abacaxi"];
-frutas.remove("Manga");
-del frutas[-1];
-print(frutas);
+#frutas = ["Maçã", "Morango", "Manga", "Uva", "Abacaxi"];
+#frutas.remove("Manga");
+#del frutas[-1];
+#print(frutas);
+
+#Desafio 10: Para este desafio, comece a lista 'frutas' do desafio anterior. Use um "for loop" para percorrer a lista e imprima cada fruta precedida pelo texto "Eu gosto de";
+frutas = ['Maçã', 'Morango', 'Uva'];
+for fruta in frutas:
+    print(f"Eu gosto de {fruta}");
