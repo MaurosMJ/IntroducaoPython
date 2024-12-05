@@ -13,7 +13,16 @@ num2 = 3.5;
 print("Resultado:", num1/num2); 
 
 #Desafio 4: Neste desafio, você deve criar um script que pergunte o nome e a idade do usuário, usando a função input(). Depois disso, o script deve imprimir uma mensagem que diga "Olá, [NOME] você tem [IDADE] anos.".
-nome = input("Qual seu nome: ");
-idade = int(input("Qual sua idade: "));
+#nome = input("Qual seu nome: ");
+#idade = int(input("Qual sua idade: "));
 #print("Olá, {}! Você tem {} anos.".format(nome, idade));
-print(f"Olá, {nome}! Você tem {idade} anos.")
+#print(f"Olá, {nome}! Você tem {idade} anos.")
+
+#Desafio 5: Neste desafio, você crie um script que solicite ao usuário dois números. Em seguida, seu script deve imprimir a soma, a subtração, a multiplicação, a divisão (resultado decimal) e a exponenciação (primeiro número ao segundo número) desses dois números.
+num1 = float(input("Digite um número: "));
+num2 = float(input("Digite outro número: "));
+print("Soma:", num1+num2);
+print("Subtração:", num1-num2);
+print("Multiplicação:", num1*num2);
+print("Divisão:", num1/num2);
+print("Exponenciação:", num1**num2);
