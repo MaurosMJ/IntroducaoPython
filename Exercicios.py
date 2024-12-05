@@ -13,8 +13,7 @@ num2 = 3.5;
 print("Resultado:", num1/num2); 
 
 #Desafio 4: Neste desafio, você deve criar um script que pergunte o nome e a idade do usuário, usando a função input(). Depois disso, o script deve imprimir uma mensagem que diga "Olá, [NOME] você tem [IDADE] anos.".
-print("Qual seu nome?");
-nome = input();
-print("Qual sua idade?");
-idade = input();
-print("Olá,", nome + "! Você tem", idade, "anos.");
+nome = input("Qual seu nome: ");
+idade = int(input("Qual sua idade: "));
+#print("Olá, {}! Você tem {} anos.".format(nome, idade));
+print(f"Olá, {nome}! Você tem {idade} anos.")
