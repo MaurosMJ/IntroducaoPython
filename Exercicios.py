@@ -28,5 +28,10 @@ print("Resultado:", num1/num2);
 #print("Exponenciação:", num1**num2);
 
 #Desafio 6: Neste desafio, você deve criar uma lista chamada 'frutas' que contenha os seguintes itens: "Maçã", "Banana", "Manga" e "Uva". Depois disso, imprimir esta lista na tela.
+#frutas = ["maçã", "banana", "manga", "uva"];
+#print(frutas);
+
+#Desafio 7: Para este desafio, use a lista 'frutas' do desafio anterior. Seu desafio é imprimir o primeiro e o último elemento da lista.
 frutas = ["maçã", "banana", "manga", "uva"];
-print(frutas);
+print(f"Primeiro elemento: {frutas[0]}");
+print(f"Ultimo elemento: {frutas[-1]}");
