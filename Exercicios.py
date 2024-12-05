@@ -35,3 +35,9 @@ print("Resultado:", num1/num2);
 frutas = ["maçã", "banana", "manga", "uva"];
 print(f"Primeiro elemento: {frutas[0]}");
 print(f"Ultimo elemento: {frutas[-1]}");
+
+#Desafio 8: Para este desafio, comece a lista 'frutas' do desafio anterior. Primeiro, seu desafio é alterar o segundo elemento da lista (índice 1)  de "banana" para "morango". Depois disso, adicione a fruta "abacaxi" ao final da lista. Por fim, imprima a lista modificada na tela.
+frutas = ["maçã", "banana", "manga", "uva"];
+frutas[1] = "morango";
+frutas.append("abacaxi");
+print(frutas);
