@@ -32,12 +32,18 @@ print("Resultado:", num1/num2);
 #print(frutas);
 
 #Desafio 7: Para este desafio, use a lista 'frutas' do desafio anterior. Seu desafio é imprimir o primeiro e o último elemento da lista.
-frutas = ["maçã", "banana", "manga", "uva"];
-print(f"Primeiro elemento: {frutas[0]}");
-print(f"Ultimo elemento: {frutas[-1]}");
+#frutas = ["maçã", "banana", "manga", "uva"];
+#print(f"Primeiro elemento: {frutas[0]}");
+#print(f"Ultimo elemento: {frutas[-1]}");
 
 #Desafio 8: Para este desafio, comece a lista 'frutas' do desafio anterior. Primeiro, seu desafio é alterar o segundo elemento da lista (índice 1)  de "banana" para "morango". Depois disso, adicione a fruta "abacaxi" ao final da lista. Por fim, imprima a lista modificada na tela.
-frutas = ["maçã", "banana", "manga", "uva"];
-frutas[1] = "morango";
-frutas.append("abacaxi");
+#frutas = ["maçã", "banana", "manga", "uva"];
+#frutas[1] = "morango";
+#frutas.append("abacaxi");
+#print(frutas);
+
+#Desafio 9: Para este desafio, comece com a lista 'frutas' do desafio anterior. Primeiro remover a "manga" da lista usando o método remove(). Depois disso, remova o último item da lista usando o comando del(). Por fim, imprima a lista modificada na tela.
+frutas = ["Maçã", "Morango", "Manga", "Uva", "Abacaxi"];
+frutas.remove("Manga");
+del frutas[-1];
 print(frutas);
