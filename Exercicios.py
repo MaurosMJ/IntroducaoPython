@@ -19,10 +19,14 @@ print("Resultado:", num1/num2);
 #print(f"Olá, {nome}! Você tem {idade} anos.")
 
 #Desafio 5: Neste desafio, você crie um script que solicite ao usuário dois números. Em seguida, seu script deve imprimir a soma, a subtração, a multiplicação, a divisão (resultado decimal) e a exponenciação (primeiro número ao segundo número) desses dois números.
-num1 = float(input("Digite um número: "));
-num2 = float(input("Digite outro número: "));
-print("Soma:", num1+num2);
-print("Subtração:", num1-num2);
-print("Multiplicação:", num1*num2);
-print("Divisão:", num1/num2);
-print("Exponenciação:", num1**num2);
+#num1 = float(input("Digite um número: "));
+#num2 = float(input("Digite outro número: "));
+#print("Soma:", num1+num2);
+#print("Subtração:", num1-num2);
+#print("Multiplicação:", num1*num2);
+#print("Divisão:", num1/num2);
+#print("Exponenciação:", num1**num2);
+
+#Desafio 6: Neste desafio, você deve criar uma lista chamada 'frutas' que contenha os seguintes itens: "Maçã", "Banana", "Manga" e "Uva". Depois disso, imprimir esta lista na tela.
+frutas = ["maçã", "banana", "manga", "uva"];
+print(frutas);
